@@ -13,7 +13,7 @@ interface LayerInfo {
 
 const layers: Record<string, LayerInfo> = {
   entities: {
-    name: "Entities",
+    name: "Domain",
     description:
       "Enterprise Business Rules - Reglas de negocio puras y entidades del dominio",
     color: "#FEF3C7",
@@ -50,7 +50,7 @@ const layers: Record<string, LayerInfo> = {
     ],
   },
   controllers: {
-    name: "Controllers",
+    name: "Adapters",
     description:
       "Interface Adapters - Controladores, adaptadores, UI, hooks y stores globales",
     color: "#86EFAC",
